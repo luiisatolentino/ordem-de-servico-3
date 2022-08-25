@@ -85,7 +85,7 @@ return true;
 }
 void transportarItemArmazem(String tipo_item) {
 if (tipo_item == "metal") {
-digitalWrite(ESTEIRA, HIGH);
+digitalWrite(ESTEIRA, LOW);
 digitalWrite(ATUADOR1, HIGH);
 digitalWrite(ATUADOR2, LOW);
 } if (tipo_item == "branco") {
